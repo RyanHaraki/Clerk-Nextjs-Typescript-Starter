@@ -1,0 +1,30 @@
+{
+  "name": "clerk-nextjs-typescript-starter",
+  "description": "Use Clerk's authentication and user management with Next.js",
+  "keywords": [
+    "clerk",
+    "nextjs",
+    "react",
+    "authentication"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.23.0",
+    "@types/node": "20.4.4",
+    "@types/react-dom": "18.2.7",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}
